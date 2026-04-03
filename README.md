@@ -9,7 +9,7 @@ While modern embedded development is primarily done in C/C++ or using RTOS (like
 
 This repository is divided into two distinct architectural explorations:
 
-### 1. [ATmega2560: Memory Management & CTC Timers](./ATmega2560)
+### 1. [ATmega2560: Memory Management & CTC Timers](./Atmega2560)
 * **Focus:** 24-bit physical memory addressing, page boundary crossing, and non-blocking delays.
 * **Key Achievements:** * Safely navigated Flash memory exceeding 64KB using manual manipulation of the `RAMPZ` register and the `Z` pointer.
   * Replaced blocking software delays with precise 10ms hardware interrupts using Timer1 in CTC mode.
