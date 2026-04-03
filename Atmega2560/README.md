@@ -12,6 +12,6 @@ The core task involves copying structured data from Program Memory (ROM/Flash) t
 * **Circular Buffer Implementation:** Designed a robust SRAM circular buffer that compares full 16-bit physical addresses (YH:YL) rather than relying on simple 8-bit index counters, allowing seamless memory wrap-around.
 * **Non-Blocking Interrupt Timers (CTC Mode):** Configured Timer1 in CTC (Clear Timer on Compare) mode with a 64 prescaler to generate strict 10ms hardware interrupts. This allowed for precise 750ms and 500ms delays without freezing the CPU with blocking software loops, simulating RTOS-like task scheduling.
 * **Hardware Debouncing:** Implemented software debouncing logic to ensure reliable physical button reads.
-
+*(See `[avr23_plytka](https://github.com/user-attachments/assets/c9427302-129a-4110-a49e-ba85aa0286ba)' of AVR custom university board).*
 ## Why Assembly?
 Developing this in pure Assembly forced a deep understanding of the AVR ALU, Status Register flags, and physical memory boundaries. This low-level approach directly translates to writing highly optimized, memory-safe C/C++ firmware for constrained embedded systems.
