@@ -9,7 +9,9 @@ This repository showcases a bare-metal Assembly program for the PIC18F45K22 micr
 
 By offloading the timing and display logic to independent hardware timers, the main CPU loop remains completely unblocked and available for other tasks—a fundamental concept for RTOS and responsive embedded systems.
 
-> **Note:** [Insert a GIF or image of your working EasyPIC v7 board here]
+> **Animation demo:** *(https://github.com/user-attachments/assets/7e0faf04-c94d-4895-87d4-d746804a6572)*
+
+
 
 ## Hardware & Toolchain
 * **Development Board:** MikroElektronika EasyPIC v7
@@ -34,7 +36,6 @@ When flashing this code, ensure the following configuration bits are strictly se
 * **MCLR Enable Bit:** Disabled (Internal Reset)
 * **Low Voltage Programming (LVP):** Disabled
 
-*(See `images/programmer_config.jpg` for mikroProg Suite setup).*
 
 ## Technical Focus & Learning Outcomes
 This project serves as a practical demonstration of handling concurrent hardware peripherals. Operating multiple timers and managing an ISR dispatcher in Assembly builds the exact architectural foundation required to understand RTOS context switching, thread management, and bare-metal C driver development.
