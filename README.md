@@ -25,3 +25,8 @@ This repository is divided into two distinct architectural explorations:
 * **Memory Management:** Direct manipulation of SRAM, Flash/ROM, and Special Function Registers (SFRs).
 * **Interrupts & Timers:** Interrupt Service Routines (ISRs), CTC Mode, Prescalers, and Context Saving.
 * **Non-Blocking Logic:** Designing systems that react to hardware events rather than being trapped in polling loops.
+
+## Academic Context & Background
+These projects were originally developed as part of the **"Microprocessor and Embedded Systems"** laboratory coursework at the **Silesian University of Technology**. 
+
+However, the implementations, documentation, and stress-testing (such as architectural edge-case analysis and manual memory boundary crossing) were independently expanded beyond standard academic requirements to serve as a deep dive into bare-metal MCU architecture.
