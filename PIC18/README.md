@@ -9,7 +9,8 @@ This repository showcases a bare-metal Assembly program for the PIC18F45K22 micr
 
 By offloading the timing and display logic to independent hardware timers, the main CPU loop remains completely unblocked and available for other tasks—a fundamental concept for RTOS and responsive embedded systems.
 
-> **Animation demo:** *(https://github.com/user-attachments/assets/7e0faf04-c94d-4895-87d4-d746804a6572)*
+> **Animation demo:**![ezgif com-optimize](https://github.com/user-attachments/assets/fe9b3307-2b83-47ad-92d5-327df6ab78e6)
+
 
 
 
